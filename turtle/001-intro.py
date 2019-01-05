@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import turtle
 
 '''
@@ -57,11 +56,11 @@ To use multiple turtles on  a screen one has to use the object-oriented inter-
 face.
 '''
 
-color('red', 'yellow')
-begin_fill()
+turtle.color('red', 'yellow')
+turtle.begin_fill()
 while True:
-    forward(200)
-    left(170)
+    turtle.forward(200)
+    turtle.left(170)
     if abs(pos()) < 1:
         break
 end_fill()
